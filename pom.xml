@@ -41,8 +41,9 @@
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <endpoints.framework.version>2.2.0</endpoints.framework.version>
+    <endpoints.framework.version>2.1.2</endpoints.framework.version>
     <endpoints.management.version>1.0.10</endpoints.management.version>
+
     <endpoints.project.id>chingor-endpoints</endpoints.project.id>
   </properties>
 
@@ -84,7 +85,7 @@
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-pubsub</artifactId>
-      <version>1.50.0</version>
+      <version>1.48.0</version>
     </dependency>
 
     <dependency>
